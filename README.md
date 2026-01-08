@@ -1,4 +1,23 @@
-# React + Vite
+# Room Finder
+
+A React + Vite based web application for finding and managing rooms.
+Built as an initial project submission.
+
+## Tech Stack
+- React
+- Vite
+- JavaScript
+- CSS
+
+## Setup Instructions
+
+1. Clone the repository
+2. Run npm install
+3. Create a .env file in the root directory
+4. Add required environment variables (see .env.example)
+5. Run npm run dev
+
+6. # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
