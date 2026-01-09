@@ -1,35 +1,36 @@
-# Room Finder
+# 🏠 Room Finder Web App
 
-A React + Vite based web application for finding and managing rooms.
-Built as an initial project submission.
+A full-stack Room Finder web application built using *React (Vite)* and *Supabase* that allows users to find, add, and manage rental rooms securely.
 
-## Tech Stack
-- React
-- Vite
-- JavaScript
-- CSS
 
-## Setup Instructions
+## 🚀 Live Demo
+[(https://room-finder-mu.vercel.app/)]
 
-1. Clone the repository
-2. Run npm install
-3. Create a .env file in the root directory
-4. Add required environment variables (see .env.example)
-5. Run npm run dev
+## ✨ Features
+- Email-based authentication (Supabase Auth)
+- Add rental rooms
+- View available rooms
+- View and manage “My Rooms”
+- Delete rooms (only owner access)
+- Secure Row Level Security (RLS)
+- Responsive and clean UI
 
-6. # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛠️ Tech Stack
+- Frontend: React + Vite
+- Backend: Supabase (PostgreSQL, Auth, RLS)
+- Hosting: Vercel
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔐 Security
+- Environment variables stored securely
+- Supabase Row Level Security enabled
+- Users can manage only their own rooms
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Setup Instructions (Local)
+```bash
+git clone https://github.com/Sahiloddin/room-finder
+cd room-finder
+npm install
+npm run dev
